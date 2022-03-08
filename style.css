@@ -1,0 +1,328 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f !important;
+    font-family: 'Oxygen' sans-serif;
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: #f6b319;
+}
+
+#logo{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+.navbar-brand h1{
+    margin-top: 25px;
+    font-family: 'Lora' serif;
+    color: #557c3e;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: 0.75;
+}
+
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+
+}
+
+#heading{
+    text-decoration:none;
+}
+
+#kosher{
+    margin-top: 12px;
+}
+
+
+/* @media (max-width:414px){
+    #nav{
+        width:max-content;
+    }
+    
+} */
+
+#nav-list{
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+#nav-list a{
+    color: #951C49;
+    text-align: center;
+    font-family:cursive;
+}
+
+.nav-link{
+    margin-left: 10px;
+}
+
+#nav-list a:hover{
+    color: #550321;
+}
+ #nav-list a span{
+     font-size: 1.8em;
+ }
+
+ #phoneno{
+ margin-left: 100px;
+ margin-top: -10px;
+ 
+ }
+
+ #phoneno a{
+    text-decoration: none;
+     text-align: right;
+     font-weight: bold;
+     padding-bottom: 0;
+ }
+
+/* We Deliver */
+#phoneno div{
+    color: #557c3e;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+    font-family:cursive;
+}
+
+#banner{
+    background: url("imgs/jumbotron_1200.jpg") no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:767px){
+    
+    #logo{
+        visibility: hidden;
+    }
+
+    .navbar-brand{
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+    .navbar-brand h1{
+        margin-top: 0px;
+        font-size: 4vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 0px;
+    }
+    .navbar-brand p img{
+        height: 20px;
+    }
+    #nav-list{
+        margin-left: -20px;
+        text-align: center;
+    }
+
+    #phoneno div{
+        float: left;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+    #phoneno{
+        margin-top: 20px;
+        margin-right: 60px;
+    }
+
+    #menuu{
+        margin-top: -480px;
+    }
+    #hh{
+        visibility: hidden;
+    } 
+    
+
+    #banner{
+        background: url("imgs/jumbotron_768.jpg") no-repeat;
+        background-size:contain;
+    }
+    
+
+    #detail{
+        text-align: center;
+    }
+
+    #icons{
+        margin-left: 75px;
+    }
+
+    
+}
+
+/* @media (min-width: 767px) and (max-width: 990px)
+{
+    #phoneno{
+        visibility: hidden;
+    }
+
+    .navbar-brand h1{
+        font-size: 1.1em;
+    }
+    #nav-list{
+        margin-left: 20px;
+    }
+} */
+
+@media (min-width:990px) and (max-width: 1200px){
+    .navbar-brand h1{
+        font-size: 1.1em;
+    }
+    #phoneno{
+        margin-left: 60px;
+        font-size: 12px;
+        margin-top: -6px;
+
+    }
+    #nav-list{
+        margin-top: -10px;
+    }
+}
+
+
+@media (min-width:767px) and (max-width: 990px){
+    #nav-list{
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #phoneno div{
+        float: left;
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+
+    #phoneno{
+        margin-top: 20px;
+        float: right;
+    }
+}
+
+#banner{
+    width:100%;
+    height: 700px;
+}
+
+#cards{
+    margin-top: 50px;
+}
+
+.card{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #1b1b1b;
+    color: antiquewhite;
+    height:fit-content
+}
+
+#detail{
+    margin-top: 40px;
+}
+
+#italic{
+    margin-top: 40px;
+}
+
+#copyright{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#coloredtext{
+    color: #557c3e;
+}
+
+#footer-heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .icon{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.wrapper .icon span{
+ height: 40px;
+ width: 40px;
+ display: block;
+ background: rgb(148, 147, 147);
+ text-align: center;
+ border-radius: 50%;
+ box-shadow: 0 10px 10px rgba(0,0,0,0.1);  
+ margin-bottom: 20px; 
+ margin-left: -10px;
+}
+
+.wrapper .icon span i{
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.wrapper .facebook:hover span{
+    background-color: #3b5999;
+}
+
+.wrapper .instagram:hover span{
+    background-color:#e1306c;
+}
+.wrapper .twitter:hover span{
+    background-color: #46C1F6;
+}
+
+#closed{
+    color: red;
+    opacity: .8;
+}
+
+#menutile , #specialtile, #maptile{
+    border: .2px solid rgb(204, 204, 204);
+}
+
+#menutile:hover , #specialtile:hover , #maptile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+    cursor: pointer;
+}
+
+#h{
+    font-family: cursive;
+}
+ #pp{
+     font-family: cursive;
+ }
+
+ #hh{
+     color: whitesmoke;
+     text-align: center;
+     margin-top: 30px;
+     font-family: cursive;
+ }
+
+ #link{
+     text-decoration: none;
+     color: black;
+ }
+
+ #ppp{
+     float: right;
+     color: green;
+     font-family: cursive;
+ }
